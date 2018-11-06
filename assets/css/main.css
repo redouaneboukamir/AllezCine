@@ -476,7 +476,6 @@ footer .release .connectUs i {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  position: absolute;
   position: fixed;
 }
 .ContentSocial .TitleBtnSocial {
