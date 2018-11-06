@@ -4,278 +4,236 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
+  content: '';
+  content: none; }
 
 q:before, q:after {
-  content: "";
-  content: none;
-}
+  content: '';
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 .bg {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 .onglet {
   background-color: #4C5155;
   color: white;
-  border: none;
-}
-.onglet:hover {
-  background-color: #FE4240;
-}
+  border: none; }
+  .onglet:hover {
+    background-color: #FE4240; }
 
 .allezcine {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3.3em;
   font-weight: bold;
   margin-top: 0.3em;
-  margin-left: 0.7em;
-}
-.allezcine .contact {
-  color: white;
-}
+  margin-left: 0.7em; }
+  .allezcine .contact {
+    color: white; }
 
 body {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 .toup {
-  margin-top: -6em;
-}
+  margin-top: -6em; }
 
 .search {
-  border-radius: 30px;
-}
+  border-radius: 30px; }
 
 .home {
   color: #FE4240;
   margin-left: 3em;
-  margin-right: 1em;
-}
+  margin-right: 1em; }
 
 .contact {
-  margin-left: 6em;
-}
+  margin-left: 6em; }
 
 .letterred {
-  color: #FE4240;
-}
+  color: #FE4240; }
 
 .container-fluid {
-  padding: 0;
-}
+  padding: 0; }
 
 .jumbotron {
   padding: 0;
-  margin-bottom: 0 !important;
-}
+  margin-bottom: 0 !important; }
 
 .divjumbo {
   z-index: 10;
   text-align: center;
   top: 40%;
-  left: 31.5%;
-}
+  left: 31.5%; }
 
 .txtjumbo1 {
   color: white;
   margin-bottom: 0.2em;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .txtjumbo2 {
   color: #F1EFF0;
   margin-bottom: 0.8em;
-  font-family: "Julius Sans One";
+  font-family: 'Julius Sans One';
   margin-top: 1em;
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 .navbar {
-  z-index: 10;
-}
+  z-index: 10; }
 
 .buttonnavbar {
-  margin-left: 0.2em;
-}
+  margin-left: 0.2em; }
 
 .carousel-item img {
-  filter: brightness(50%);
-}
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%); }
 
 .active {
-  background-color: #FE4240 !important;
-}
+  background-color: #FE4240 !important; }
 
 .activecarou {
-  margin-bottom: 10em;
-}
+  margin-bottom: 10em; }
 
 h1, h2, h3, h4, h5, h6, p, div, a, li, input {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 .container {
   padding-left: 0;
-  padding-right: 0;
-}
+  padding-right: 0; }
 
 .section-film .row {
   border: 1px solid #F1EFF0;
   border-radius: 10px;
-  padding: 15px;
-}
-.section-film .row .card {
-  border: none;
-}
-.section-film .row .card img {
-  cursor: pointer;
-}
-.section-film .row .card .card-body h5 {
-  cursor: pointer;
-}
-.section-film .row .modal .modal-dialog .modal-header {
-  background-color: #FE4240;
-}
-.section-film .row .modal .modal-dialog .modal-content .modal-body p {
-  margin-top: 15px;
-  line-height: 1.2em;
-}
-.section-film .row .modal .modal-dialog .modal-content .modal-body ul {
-  margin-top: 15px;
-}
-.section-film .row .modal .modal-dialog .modal-content .modal-body ul li {
-  margin: 10px 0;
-}
+  padding: 15px; }
+  .section-film .row .card {
+    border: none; }
+    .section-film .row .card img {
+      cursor: pointer; }
+    .section-film .row .card .card-body h5 {
+      cursor: pointer; }
+  .section-film .row .modal .modal-dialog .modal-header {
+    background-color: #FE4240; }
+  .section-film .row .modal .modal-dialog .modal-content .modal-body p {
+    margin-top: 15px;
+    line-height: 1.2em; }
+  .section-film .row .modal .modal-dialog .modal-content .modal-body ul {
+    margin-top: 15px; }
+    .section-film .row .modal .modal-dialog .modal-content .modal-body ul li {
+      margin: 10px 0; }
 
 .featured-movies {
-  margin-top: 30px;
-}
-.featured-movies .row {
-  border: none;
-}
-.featured-movies .row h2 {
-  text-transform: uppercase;
-  font-size: 1.4em;
-  transform: translateX(-50px);
-}
-.featured-movies .row h2 span {
-  color: #FE4240;
-  margin-right: 10px;
-}
-.featured-movies .row .plus {
-  background-color: #FE4240;
-  padding: 10px 15px;
-  color: white;
-  border: none;
-}
-.featured-movies .tri-movies {
-  padding-left: 30px;
-}
-.featured-movies .tri-movies .wrapper ul li {
-  padding: 10px 15px;
-  color: black;
-  background-color: #F1EFF0;
-  border: none;
-  cursor: pointer;
-  margin-right: 10px;
-}
-.featured-movies .tri-movies .wrapper ul li.active {
-  color: white;
-  background-color: #FE4240;
-}
+  margin-top: 30px; }
+  .featured-movies .row {
+    border: none;
+    margin-bottom: 10px; }
+    .featured-movies .row .card {
+      border: none; }
+      .featured-movies .row .card img {
+        cursor: pointer; }
+      .featured-movies .row .card .card-body h5 {
+        cursor: pointer; }
+    .featured-movies .row h2 {
+      text-transform: uppercase;
+      font-size: 1.4em;
+      -webkit-transform: translateX(-50px);
+      -ms-transform: translateX(-50px);
+      transform: translateX(-50px); }
+      .featured-movies .row h2 span {
+        color: #FE4240;
+        margin-right: 10px; }
+    .featured-movies .row .plus {
+      background-color: #FE4240;
+      padding: 10px 15px;
+      color: white;
+      border: none;
+      margin-top: 15px;
+      display: block !important; }
+  .featured-movies .tri-movies {
+    margin: 15px 0; }
+    .featured-movies .tri-movies .wrapper ul li {
+      padding: 10px 15px;
+      color: black;
+      background-color: #F1EFF0;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px; }
+    .featured-movies .tri-movies .wrapper ul li.active {
+      color: white;
+      background-color: #FE4240; }
 
 footer {
   background-color: #0D0D0D;
-  font-family: sans-serif;
-}
-footer button {
-  color: #FFFFFF;
-  background-color: #252727;
-  border: none;
-}
-footer .contactUs {
-  background-color: #FFFFFF;
-}
-footer .contactUs h4 {
-  border-left: 4px solid #FE4240;
-  padding: 8px;
-}
-footer .contactUs button {
-  background-color: #FE4240;
-  color: #FFFFFF;
-  border: none;
-}
-footer .contactUs button:hover {
-  background-color: #FE4240;
-  color: #FFFFFF;
-}
-footer .subscribe h4 {
-  color: #FE4240;
-}
-footer .subscribe button {
-  background-color: #FE4240;
-  color: #FFFFFF;
-  border: none;
-}
-footer .subscribe button:hover {
-  background-color: #FE4240;
-  color: #FFFFFF;
-}
-footer hr {
-  background-color: #4C5155;
-}
-footer .release h3 {
-  color: #FFFFFF;
-}
-footer .release h3 span {
-  color: #FE4240;
-}
-footer .release .connectUs button {
-  background-color: #0D0D0D;
-  border-radius: 50%;
-  border: 1px solid #FE4240;
-}
-footer .release .connectUs i {
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
-  padding: 5px;
-  margin-bottom: 30px;
-}
+  font-family: sans-serif; }
+  footer button {
+    color: #FFFFFF;
+    background-color: #252727;
+    border: none; }
+  footer .contactUs {
+    background-color: #FFFFFF; }
+    footer .contactUs h4 {
+      border-left: 4px solid #FE4240;
+      padding: 8px; }
+    footer .contactUs button {
+      background-color: #FE4240;
+      color: #FFFFFF;
+      border: none; }
+    footer .contactUs button:hover {
+      background-color: #FE4240;
+      color: #FFFFFF; }
+  footer .subscribe h4 {
+    color: #FE4240; }
+  footer .subscribe button {
+    background-color: #FE4240;
+    color: #FFFFFF;
+    border: none; }
+  footer .subscribe button:hover {
+    background-color: #FE4240;
+    color: #FFFFFF; }
+  footer hr {
+    background-color: #4C5155; }
+  footer .release h3 {
+    color: #FFFFFF; }
+    footer .release h3 span {
+      color: #FE4240; }
+  footer .release .connectUs button {
+    background-color: #0D0D0D;
+    border-radius: 50%;
+    border: 1px solid #FE4240; }
+  footer .release .connectUs i {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 30px; }
 
 .ContentBox {
   top: 0;
   z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   height: auto;
   width: 80vh;
@@ -283,28 +241,29 @@ footer .release .connectUs i {
   border-radius: 20px;
   padding: 10px 10px;
   position: fixed;
-  margin-left: 30%;
-}
-.ContentBox .TextBtn {
-  text-align: center;
-  margin: 0 10px;
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.ContentBox .ContentBtn {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  margin-top: 20px;
-}
-.ContentBox .ContentBtn .Ok {
-  padding: 10px 30px;
-  border-radius: 15px;
-  background: #4797e5;
-  color: white;
-  font-size: 1.2em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+  margin-left: 30%; }
+  .ContentBox .TextBtn {
+    text-align: center;
+    margin: 0 10px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  .ContentBox .ContentBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-top: 20px; }
+    .ContentBox .ContentBtn .Ok {
+      padding: 10px 30px;
+      border-radius: 15px;
+      background: #4797e5;
+      color: white;
+      font-size: 1.2em;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
 .ContentForm {
   z-index: 999;
@@ -314,94 +273,100 @@ footer .release .connectUs i {
   top: 100px;
   height: auto;
   padding-bottom: 50px;
+  -webkit-box-shadow: 10px 10px 10px grey;
   box-shadow: 10px 10px 10px grey;
   display: none;
   position: fixed;
   left: 50%;
-  transform: translateX(-50%);
-}
-.ContentForm .EnteteLogin {
-  height: 50%;
-  position: relative;
-  padding-top: 30px;
-}
-.ContentForm .EnteteLogin .ImgLogin {
-  margin-left: 35%;
-  background-color: #fe3f46;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ContentForm .EnteteLogin .ImgLogin i {
-  font-size: 8em;
-  color: white;
-}
-.ContentForm .EnteteLogin .XLogin {
-  right: 10px;
-  border-radius: 5px;
-  border: 1px solid white;
-  background-color: #e93535;
-  color: white;
-  padding: 5px 5px;
-  top: 10px;
-  position: absolute;
-}
-.ContentForm .FormLogin {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-.ContentForm .FormLogin .TitleId {
-  margin-bottom: 10px;
-  font-size: 1.5em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.ContentForm .FormLogin .TitlePassword {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 1.5em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.ContentForm .FormLogin .ContentBtnLogin {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-}
-.ContentForm .FormLogin .ContentBtnLogin .LoginBtn {
-  background-color: #4aaf5d;
-  width: 40%;
-  height: 60px;
-  color: white;
-  border-radius: 10px;
-}
-.ContentForm .FormLogin .ContentBtnLogin .LoginBtn:hover {
-  opacity: 0.8;
-}
-.ContentForm .FormLogin .ContentBtnLogin .CreateBtn {
-  width: 40%;
-  height: 60px;
-  border-radius: 10px;
-}
-.ContentForm .FormLogin .SecondContentBtnLogin {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.ContentForm .FormLogin .Id {
-  height: 30px;
-}
-.ContentForm .FormLogin .Password {
-  height: 30px;
-}
-.ContentForm .FormLogin .StayConnectBtn {
-  height: 30px;
-  border-radius: 10px;
-}
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .ContentForm .EnteteLogin {
+    height: 50%;
+    position: relative;
+    padding-top: 30px; }
+    .ContentForm .EnteteLogin .ImgLogin {
+      margin-left: 35%;
+      background-color: #fe3f46;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .ContentForm .EnteteLogin .ImgLogin i {
+        font-size: 8em;
+        color: white; }
+    .ContentForm .EnteteLogin .XLogin {
+      right: 10px;
+      border-radius: 5px;
+      border: 1px solid white;
+      background-color: #e93535;
+      color: white;
+      padding: 5px 5px;
+      top: 10px;
+      position: absolute; }
+  .ContentForm .FormLogin {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto; }
+    .ContentForm .FormLogin .TitleId {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+    .ContentForm .FormLogin .TitlePassword {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+    .ContentForm .FormLogin .ContentBtnLogin {
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .ContentForm .FormLogin .ContentBtnLogin .LoginBtn {
+        background-color: #4aaf5d;
+        width: 40%;
+        height: 60px;
+        color: white;
+        border-radius: 10px; }
+        .ContentForm .FormLogin .ContentBtnLogin .LoginBtn:hover {
+          opacity: 0.8; }
+      .ContentForm .FormLogin .ContentBtnLogin .CreateBtn {
+        width: 40%;
+        height: 60px;
+        border-radius: 10px; }
+    .ContentForm .FormLogin .SecondContentBtnLogin {
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .ContentForm .FormLogin .Id {
+      height: 30px; }
+    .ContentForm .FormLogin .Password {
+      height: 30px; }
+    .ContentForm .FormLogin .StayConnectBtn {
+      height: 30px;
+      border-radius: 10px; }
 
 .ContentFormRegister {
   z-index: 999;
@@ -411,116 +376,134 @@ footer .release .connectUs i {
   top: 100px;
   height: auto;
   padding-bottom: 50px;
+  -webkit-box-shadow: 10px 10px 10px grey;
   box-shadow: 10px 10px 10px grey;
   display: none;
   position: fixed;
   left: 50%;
-  transform: translateX(-50%);
-}
-.ContentFormRegister .XRegister {
-  right: 10px;
-  border-radius: 5px;
-  border: 1px solid white;
-  background-color: #e93535;
-  color: white;
-  padding: 5px 5px;
-  top: 10px;
-  position: absolute;
-}
-.ContentFormRegister .FormRegister {
-  padding-top: 20px;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-.ContentFormRegister .BtnRegister {
-  margin-top: 30px;
-  background-color: #4aaf5d;
-  width: 100%;
-  padding: 20px;
-  color: white;
-  border-radius: 10px;
-}
-.ContentFormRegister .BtnRegister:hover {
-  opacity: 0.8;
-}
-.ContentFormRegister .NameInput {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-size: 1.3em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.ContentFormRegister .InputName {
-  margin-bottom: 20px;
-  height: 30px;
-}
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .ContentFormRegister .XRegister {
+    right: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #e93535;
+    color: white;
+    padding: 5px 5px;
+    top: 10px;
+    position: absolute; }
+  .ContentFormRegister .FormRegister {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .ContentFormRegister .BtnRegister {
+    margin-top: 30px;
+    background-color: #4aaf5d;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    border-radius: 10px; }
+    .ContentFormRegister .BtnRegister:hover {
+      opacity: 0.8; }
+  .ContentFormRegister .NameInput {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  .ContentFormRegister .InputName {
+    margin-bottom: 20px;
+    height: 30px; }
 
 .animate {
   -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s;
-}
+  animation: animatezoom 0.6s; }
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1), translateX(-50%);
+    transform: scale(1), translateX(-50%); } }
 
 @keyframes animatezoom {
   from {
-    transform: scale(0);
-  }
+    -webkit-transform: scale(0);
+    transform: scale(0); }
   to {
-    transform: scale(1), translateX(-50%);
-  }
-}
+    -webkit-transform: scale(1), translateX(-50%);
+    transform: scale(1), translateX(-50%); } }
+
 .ContentSocial {
   z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   top: 250px;
-  position: fixed;
-}
-.ContentSocial .TitleBtnSocial {
-  color: white;
-  margin-right: 40px;
-  margin-top: 4px;
-  font-size: 1em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.ContentSocial .AllBtn {
-  padding: 10px 10px;
-  width: 200px;
-  border-radius: 40px;
-  transform: translateX(-160px);
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-  margin: 1px 1px;
-}
-.ContentSocial .AllBtn:hover {
-  transform: translateX(-20px);
-  transition: transform 0.5s ease;
-}
-.ContentSocial .Twitter {
-  background: #23a1e4;
-}
-.ContentSocial .Facebook {
-  background: #40618f;
-}
-.ContentSocial .Facebook i {
-  padding: 5px 7px;
-}
-.ContentSocial .Dribble {
-  background: #e54f88;
-}
-.ContentSocial .Google {
-  background: #de4c3c;
-}
-.ContentSocial i {
-  font-size: 1em;
-  padding: 5px 5px;
-  border-radius: 40px;
-  color: black;
-  background-color: white;
-}
+  position: fixed; }
+  .ContentSocial .TitleBtnSocial {
+    color: white;
+    margin-right: 40px;
+    margin-top: 4px;
+    font-size: 1em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  .ContentSocial .AllBtn {
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 40px;
+    -webkit-transform: translateX(-160px);
+    -ms-transform: translateX(-160px);
+    transform: translateX(-160px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin: 1px 1px; }
+    .ContentSocial .AllBtn:hover {
+      -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+      transform: translateX(-20px);
+      -webkit-transition: -webkit-transform 0.5s ease;
+      transition: -webkit-transform 0.5s ease;
+      -o-transition: transform 0.5s ease;
+      transition: transform 0.5s ease;
+      transition: transform 0.5s ease, -webkit-transform 0.5s ease; }
+  .ContentSocial .Twitter {
+    background: #23a1e4; }
+  .ContentSocial .Facebook {
+    background: #40618f; }
+    .ContentSocial .Facebook i {
+      padding: 5px 7px; }
+  .ContentSocial .Dribble {
+    background: #e54f88; }
+  .ContentSocial .Google {
+    background: #de4c3c; }
+  .ContentSocial i {
+    font-size: 1em;
+    padding: 5px 5px;
+    border-radius: 40px;
+    color: black;
+    background-color: white; }
 
 .BarreLoginRegister {
   background: #fe3f46;
@@ -528,16 +511,15 @@ footer .release .connectUs i {
   color: white;
   font-family: sans-serif;
   font-size: 0.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-}
-.BarreLoginRegister .ContentBtnLogin {
-  margin-left: 15px;
-}
-.BarreLoginRegister .ContentBtnLogin button {
-  background: black;
-  color: white;
-  padding: 7px 14px;
-}
-
-/*# sourceMappingURL=main.css.map */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .BarreLoginRegister .ContentBtnLogin {
+    margin-left: 15px; }
+    .BarreLoginRegister .ContentBtnLogin button {
+      background: black;
+      color: white;
+      padding: 7px 14px; }
