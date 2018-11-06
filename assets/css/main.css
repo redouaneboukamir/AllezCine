@@ -36,6 +36,7 @@ q:before, q:after {
 
 table {
   border-collapse: collapse;
+<<<<<<< HEAD
   border-spacing: 0;
 }
 
@@ -312,3 +313,50 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
 }
 
 /*# sourceMappingURL=main.css.map */
+=======
+  border-spacing: 0; }
+
+footer {
+  background-color: #0D0D0D;
+  font-family: sans-serif; }
+  footer button {
+    color: #FFFFFF;
+    background-color: #252727;
+    border: none; }
+  footer .contactUs {
+    background-color: #FFFFFF; }
+    footer .contactUs h4 {
+      border-left: 4px solid #FE4240;
+      padding: 8px; }
+    footer .contactUs button {
+      background-color: #FE4240;
+      color: #FFFFFF;
+      border: none; }
+    footer .contactUs button:hover {
+      background-color: #FE4240;
+      color: #FFFFFF; }
+  footer .subscribe h4 {
+    color: #FE4240; }
+  footer .subscribe button {
+    background-color: #FE4240;
+    color: #FFFFFF;
+    border: none; }
+  footer .subscribe button:hover {
+    background-color: #FE4240;
+    color: #FFFFFF; }
+  footer hr {
+    background-color: #4C5155; }
+  footer .release h3 {
+    color: #FFFFFF; }
+    footer .release h3 span {
+      color: #FE4240; }
+  footer .release .connectUs button {
+    background-color: #0D0D0D;
+    border-radius: 50%;
+    border: 1px solid #FE4240; }
+  footer .release .connectUs i {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 30px; }
+>>>>>>> devRaph
