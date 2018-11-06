@@ -1,0 +1,65 @@
+@import 'variables';
+
+footer{
+    background-color: $black;
+    font-family: sans-serif;
+    button{
+        color:$white;
+        background-color:$lightblack;
+        border: none;
+    }
+    .contactUs{
+        background-color:$white;
+        h4{
+            border-left: 4px solid $red;
+            padding: 8px;
+        }
+        button{
+            background-color: $red;
+            color:$white;
+            border:none;
+        }
+        button:hover{
+            background-color: $red;
+            color:$white;
+        }
+    }
+    .subscribe{
+        h4{
+            color: $red;
+        }
+        button{
+            background-color: $red;
+            color:$white;
+            border:none;
+        }
+        button:hover{
+            background-color: $red;
+            color:$white;
+        }
+    }
+    hr{
+        background-color: $darkgrey;
+    }
+    .release{
+        h3{
+            color: $white;
+            span{
+                color:$red;
+            }
+        }
+        .connectUs{
+            button{
+                background-color:$black;
+                border-radius: 50%;
+                border: 1px solid $red;
+            }
+            i{
+                border: 1px solid $white;
+                color: $white;
+                padding: 5px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
