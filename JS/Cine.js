@@ -17,13 +17,6 @@ $('#Login').click(function(){
   $('#ContentForm').show();
   $('#Register').attr('disabled','true');
 })
-// Effacement Focus De login
-$('#Id').focus(function () {
-    $('#Id').val("");
-  })
-  $('#Password').focus(function () {
-    $('#Password').val("");
-  })
 // Click Create comtpe
 $('#CreateCpt').click(function(){
   $('#ContentForm').hide();
@@ -61,19 +54,6 @@ $('#CancelBoxLogin').click(function(){
 $('#Register').click(function(){
   $('#ContentFormRegister').show();
   $('#Login').attr('disabled','true');
-})
-// Effacement Focus De login
-$('#Name').focus(function () {
-  $(this).val("");
-});
-$('#Email').focus(function () {
-  $(this).val("");
-});
-$('#RegisterPassword').focus(function () {
-  $(this).val("");
-});
-$('#ConfirmPassword').focus(function () {
-  $(this).val("");
 })
 // Test validation des inputs
 $('#BtnRegister').click(function(){

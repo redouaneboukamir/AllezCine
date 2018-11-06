@@ -21,9 +21,15 @@
 			<button class="Ok" id="Ok"><i class="fas fa-check"></i>  Ok</button>
 		</div>
 	</div>
-	
-	<button id="Login">Login</button>
-	<button id="Register">register</button>
+	<!-- Ensemble des Botons Reseaux Sociaux -->
+	<div class="ContentSocial">
+		<div class="ContentIconTitle">
+			<a href="#" class="Twitter AllBtn"><span class="TitleBtnSocial">Twitter</span><i class="fab fa-twitter"></i></a>
+		</div>
+		<a href="#"  class="Facebook AllBtn"><span class="TitleBtnSocial">Facebook</span><i class="fab fa-facebook-f"></i></a>
+		<a href="#" class="Dribble AllBtn"><span class="TitleBtnSocial">Dribble</span><i class="fab fa-dribbble"></i></a>
+		<a href="#" class="Google AllBtn"><span class="TitleBtnSocial">Google +</span><i class="fab fa-google-plus-g"></i></a>
+	</div>
 
 	<!-- Lightbox Login -->
 	<div class="ContentForm col-lg-6 col-xs-3 animate" id="ContentForm">
@@ -37,9 +43,9 @@
 		<!-- Formulaire de Login -->
 		<form class="FormLogin">
 			<span class="TitleId">Id</span>
-			<input type="text" value="Enter your id" id="Id" class="Id">
+			<input type="text" placeholder="Enter your id" id="Id" class="Id">
 			<span class="TitlePassword">Password</span>
-			<input type="password" value="Password" id="Password" class="Password">
+			<input type="password" placeholder="Password" id="Password" class="Password">
 			<section class="ContentBtnLogin">
 				<button id="LoginBtn" class="LoginBtn">Login</button>
 				<button id="CreateCpt" class="CreateBtn">Create an account</button>
@@ -51,18 +57,18 @@
 			</section>
 		</form>
 	</div>
-	<!-- Formulaire Register-->
+	<!-- LightBox Formulaire Register-->
 	<div class="ContentFormRegister col-lg-7 col-xs-3 animate" id="ContentFormRegister">
 			<button class="XRegister" id="ExitBoxRegister">X</button>
 			<form class="FormRegister">
 					<span class="NameInput"NameInput>Name</span>
-					<input type="text" value="Enter your Name" id="Name" class="InputName">
+					<input type="text" placeholder="Enter your Name" id="Name" class="InputName">
 					<span class="NameInput">Email</span>
-					<input type="email" value="Enter your Email" id="Email" class="InputName">
+					<input type="email" placeholder="Enter your Email" id="Email" class="InputName">
 					<span class="NameInput">Password</span>
-					<input type="password" value="Password" id="RegisterPassword" class="InputName">
+					<input type="password" placeholder="Password" id="RegisterPassword" class="InputName">
 					<span class="NameInput">Confirm Password</span>
-					<input type="password" value="Password" id="ConfirmPassword" class="InputName">
+					<input type="password" placeholder="Password" id="ConfirmPassword" class="InputName">
 					<section class="CheckboxAGC">
 							<input type="checkbox" id="AcceptCond" name="AGC" checked /><label>Accept general conditons</label>
 					</section>
@@ -70,6 +76,14 @@
 					
 				</form>
 	</div>
+		<!-- Barre menu en dessous header -->
+		<div class="BarreLoginRegister">
+				<i class="fas fa-phone"></i><span> (+000) 009 455 4088</span>
+				<div class="ContentBtnLogin">
+					<button id="Login">Login</button>
+					<button id="Register">Register</button>
+				</div>	
+		</div>
 	<!-- JQUERY BOOTSTRAP -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
