@@ -30,6 +30,7 @@ $('#LoginBtn').click(function(){
     return false
   }else if($('#Password').val() == "" || ($('#Password').val() == "Password")){
     alert("Enter a valid password.");
+    $(this).css('border','1px solid red');
     return false;
   }
   else{

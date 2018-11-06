@@ -1,6 +1,9 @@
 .ContentSocial {
   display: flex;
   flex-direction: column;
+  margin-top: 300px;
+  position: absolute;
+  position: fixed;
 }
 .ContentSocial .TitleBtnSocial {
   color: white;

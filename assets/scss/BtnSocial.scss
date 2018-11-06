@@ -2,7 +2,9 @@ $Font : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .ContentSocial{
     display: flex;
     flex-direction: column;
-
+    margin-top: 300px;
+    position: absolute;
+    position: fixed;
     .TitleBtnSocial{
         color: white;
         margin-right: 40px;
