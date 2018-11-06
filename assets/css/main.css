@@ -282,7 +282,7 @@ footer .release .connectUs i {
   background-color: #9b9b9b;
   border-radius: 20px;
   padding: 10px 10px;
-  position: absolute;
+  position: fixed;
   margin-left: 30%;
 }
 .ContentBox .TextBtn {
