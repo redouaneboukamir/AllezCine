@@ -4,333 +4,427 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 q:before, q:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 .bg {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .onglet {
   background-color: #4C5155;
   color: white;
-  border: none; }
-  .onglet:hover {
-    background-color: #FE4240; }
+  border: none;
+}
+.onglet:hover {
+  background-color: #FE4240;
+}
 
 .allezcine {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3.3em;
   font-weight: bold;
   margin-top: 0.3em;
-  margin-left: 0.7em; }
-  .allezcine .contact {
-    color: white; }
+  margin-left: 0.7em;
+}
+.allezcine .contact {
+  color: white;
+}
 
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 .toup {
-  margin-top: -6em; }
+  margin-top: -6em;
+}
 
 .search {
-  border-radius: 30px; }
+  border-radius: 30px;
+}
 
 .home {
   color: #FE4240;
   margin-left: 3em;
-  margin-right: 1em; }
+  margin-right: 1em;
+}
 
 .contact {
-  margin-left: 6em; }
+  margin-left: 6em;
+}
 
 .letterred {
-  color: #FE4240; }
+  color: #FE4240;
+}
 
 .container-fluid {
-  padding: 0; }
+  padding: 0;
+}
 
 .jumbotron {
-  padding: 0; }
+  padding: 0;
+}
 
 .divjumbo {
   z-index: 10;
   text-align: center;
   top: 40%;
-  left: 31.5%; }
+  left: 31.5%;
+}
 
 .txtjumbo1 {
   color: white;
   margin-bottom: 0.2em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .txtjumbo2 {
   color: #F1EFF0;
   margin-bottom: 0.8em;
-  font-family: 'Julius Sans One';
+  font-family: "Julius Sans One";
   margin-top: 1em;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .navbar {
-  z-index: 10; }
+  z-index: 10;
+}
 
 .buttonnavbar {
-  margin-left: 0.2em; }
+  margin-left: 0.2em;
+}
 
 .carousel-item img {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%); }
+  filter: brightness(50%);
+}
 
 .active {
-  background-color: #FE4240 !important; }
+  background-color: #FE4240 !important;
+}
 
 .activecarou {
-  margin-bottom: 10em; }
+  margin-bottom: 10em;
+}
 
 .bg {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .onglet {
   background-color: #4C5155;
   color: white;
-  border: none; }
-  .onglet:hover {
-    background-color: #FE4240; }
+  border: none;
+}
+.onglet:hover {
+  background-color: #FE4240;
+}
 
 .allezcine {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3.3em;
   font-weight: bold;
   margin-top: 0.3em;
-  margin-left: 0.7em; }
-  .allezcine .contact {
-    color: white; }
+  margin-left: 0.7em;
+}
+.allezcine .contact {
+  color: white;
+}
 
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 .toup {
-  margin-top: -6em; }
+  margin-top: -6em;
+}
 
 .search {
-  border-radius: 30px; }
+  border-radius: 30px;
+}
 
 .home {
   color: #FE4240;
   margin-left: 3em;
-  margin-right: 1em; }
+  margin-right: 1em;
+}
 
 .contact {
-  margin-left: 6em; }
+  margin-left: 6em;
+}
 
 .letterred {
-  color: #FE4240; }
+  color: #FE4240;
+}
 
 .container-fluid {
-  padding: 0; }
+  padding: 0;
+}
 
 .jumbotron {
-  padding: 0; }
+  padding: 0;
+}
 
 .divjumbo {
   z-index: 10;
   text-align: center;
   top: 40%;
-  left: 31.5%; }
+  left: 31.5%;
+}
 
 .txtjumbo1 {
   color: white;
   margin-bottom: 0.2em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .txtjumbo2 {
   color: #F1EFF0;
   margin-bottom: 0.8em;
-  font-family: 'Julius Sans One';
+  font-family: "Julius Sans One";
   margin-top: 1em;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .navbar {
-  z-index: 10; }
+  z-index: 10;
+}
 
 .buttonnavbar {
-  margin-left: 0.2em; }
+  margin-left: 0.2em;
+}
 
 .carousel-item img {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%); }
+  filter: brightness(50%);
+}
 
 .active {
-  background-color: #FE4240 !important; }
+  background-color: #FE4240 !important;
+}
 
 .activecarou {
-  margin-bottom: 10em; }
+  margin-bottom: 10em;
+}
 
 h1, h2, h3, h4, h5, h6, p, div, a, li, input {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 .container {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+}
 
 .section-film .row {
   border: 1px solid #F1EFF0;
   border-radius: 10px;
-  padding: 15px; }
-  .section-film .row .card {
-    border: none; }
-    .section-film .row .card img {
-      cursor: pointer; }
-    .section-film .row .card .card-body h5 {
-      cursor: pointer; }
-  .section-film .row .modal .modal-dialog .modal-header {
-    background-color: #FE4240; }
-  .section-film .row .modal .modal-dialog .modal-content .modal-body p {
-    margin-top: 15px;
-    line-height: 1.2em; }
-  .section-film .row .modal .modal-dialog .modal-content .modal-body ul {
-    margin-top: 15px; }
-    .section-film .row .modal .modal-dialog .modal-content .modal-body ul li {
-      margin: 10px 0; }
+  padding: 15px;
+}
+.section-film .row .card {
+  border: none;
+}
+.section-film .row .card img {
+  cursor: pointer;
+}
+.section-film .row .card .card-body h5 {
+  cursor: pointer;
+}
+.section-film .row .modal .modal-dialog .modal-header {
+  background-color: #FE4240;
+}
+.section-film .row .modal .modal-dialog .modal-content .modal-body p {
+  margin-top: 15px;
+  line-height: 1.2em;
+}
+.section-film .row .modal .modal-dialog .modal-content .modal-body ul {
+  margin-top: 15px;
+}
+.section-film .row .modal .modal-dialog .modal-content .modal-body ul li {
+  margin: 10px 0;
+}
 
 .featured-movies {
-  margin-top: 30px; }
-  .featured-movies .row {
-    border: none; }
-    .featured-movies .row h2 {
-      text-transform: uppercase;
-      font-size: 1.4em;
-      -webkit-transform: translateX(-50px);
-      -ms-transform: translateX(-50px);
-      transform: translateX(-50px); }
-      .featured-movies .row h2 span {
-        color: #FE4240;
-        margin-right: 10px; }
-    .featured-movies .row .plus {
-      background-color: #FE4240;
-      padding: 10px 15px;
-      color: white;
-      border: none; }
-  .featured-movies .tri-movies {
-    padding-left: 30px; }
-    .featured-movies .tri-movies .wrapper ul li {
-      padding: 10px 15px;
-      color: black;
-      background-color: #F1EFF0;
-      border: none;
-      cursor: pointer;
-      margin-right: 10px; }
-    .featured-movies .tri-movies .wrapper ul li.active {
-      color: white;
-      background-color: #FE4240; }
+  margin-top: 30px;
+}
+.featured-movies .row {
+  border: none;
+}
+.featured-movies .row h2 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  transform: translateX(-50px);
+}
+.featured-movies .row h2 span {
+  color: #FE4240;
+  margin-right: 10px;
+}
+.featured-movies .row .plus {
+  background-color: #FE4240;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+}
+.featured-movies .tri-movies {
+  padding-left: 30px;
+}
+.featured-movies .tri-movies .wrapper ul li {
+  padding: 10px 15px;
+  color: black;
+  background-color: #F1EFF0;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.featured-movies .tri-movies .wrapper ul li.active {
+  color: white;
+  background-color: #FE4240;
+}
 
 footer {
   background-color: #0D0D0D;
-  font-family: sans-serif; }
-  footer button {
-    color: #FFFFFF;
-    background-color: #252727;
-    border: none; }
-  footer .contactUs {
-    background-color: #FFFFFF; }
-    footer .contactUs h4 {
-      border-left: 4px solid #FE4240;
-      padding: 8px; }
-    footer .contactUs button {
-      background-color: #FE4240;
-      color: #FFFFFF;
-      border: none; }
-    footer .contactUs button:hover {
-      background-color: #FE4240;
-      color: #FFFFFF; }
-  footer .subscribe h4 {
-    color: #FE4240; }
-  footer .subscribe button {
-    background-color: #FE4240;
-    color: #FFFFFF;
-    border: none; }
-  footer .subscribe button:hover {
-    background-color: #FE4240;
-    color: #FFFFFF; }
-  footer hr {
-    background-color: #4C5155; }
-  footer .release h3 {
-    color: #FFFFFF; }
-    footer .release h3 span {
-      color: #FE4240; }
-  footer .release .connectUs button {
-    background-color: #0D0D0D;
-    border-radius: 50%;
-    border: 1px solid #FE4240; }
-  footer .release .connectUs i {
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
-    padding: 5px;
-    margin-bottom: 30px; }
+  font-family: sans-serif;
+}
+footer button {
+  color: #FFFFFF;
+  background-color: #252727;
+  border: none;
+}
+footer .contactUs {
+  background-color: #FFFFFF;
+}
+footer .contactUs h4 {
+  border-left: 4px solid #FE4240;
+  padding: 8px;
+}
+footer .contactUs button {
+  background-color: #FE4240;
+  color: #FFFFFF;
+  border: none;
+}
+footer .contactUs button:hover {
+  background-color: #FE4240;
+  color: #FFFFFF;
+}
+footer .subscribe h4 {
+  color: #FE4240;
+}
+footer .subscribe button {
+  background-color: #FE4240;
+  color: #FFFFFF;
+  border: none;
+}
+footer .subscribe button:hover {
+  background-color: #FE4240;
+  color: #FFFFFF;
+}
+footer hr {
+  background-color: #4C5155;
+}
+footer .release h3 {
+  color: #FFFFFF;
+}
+footer .release h3 span {
+  color: #FE4240;
+}
+footer .release .connectUs button {
+  background-color: #0D0D0D;
+  border-radius: 50%;
+  border: 1px solid #FE4240;
+}
+footer .release .connectUs i {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 5px;
+  margin-bottom: 30px;
+}
 
 footer {
   background-color: #0D0D0D;
-  font-family: sans-serif; }
-  footer button {
-    color: #FFFFFF;
-    background-color: #252727;
-    border: none; }
-  footer .contactUs {
-    background-color: #FFFFFF; }
-    footer .contactUs h4 {
-      border-left: 4px solid #FE4240;
-      padding: 8px; }
-    footer .contactUs button {
-      background-color: #FE4240;
-      color: #FFFFFF;
-      border: none; }
-    footer .contactUs button:hover {
-      background-color: #FE4240;
-      color: #FFFFFF; }
-  footer .subscribe h4 {
-    color: #FE4240; }
-  footer .subscribe button {
-    background-color: #FE4240;
-    color: #FFFFFF;
-    border: none; }
-  footer .subscribe button:hover {
-    background-color: #FE4240;
-    color: #FFFFFF; }
-  footer hr {
-    background-color: #4C5155; }
-  footer .release h3 {
-    color: #FFFFFF; }
-    footer .release h3 span {
-      color: #FE4240; }
-  footer .release .connectUs button {
-    background-color: #0D0D0D;
-    border-radius: 50%;
-    border: 1px solid #FE4240; }
-  footer .release .connectUs i {
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
-    padding: 5px;
-    margin-bottom: 30px; }
+  font-family: sans-serif;
+}
+footer button {
+  color: #FFFFFF;
+  background-color: #252727;
+  border: none;
+}
+footer .contactUs {
+  background-color: #FFFFFF;
+}
+footer .contactUs h4 {
+  border-left: 4px solid #FE4240;
+  padding: 8px;
+}
+footer .contactUs button {
+  background-color: #FE4240;
+  color: #FFFFFF;
+  border: none;
+}
+footer .contactUs button:hover {
+  background-color: #FE4240;
+  color: #FFFFFF;
+}
+footer .subscribe h4 {
+  color: #FE4240;
+}
+footer .subscribe button {
+  background-color: #FE4240;
+  color: #FFFFFF;
+  border: none;
+}
+footer .subscribe button:hover {
+  background-color: #FE4240;
+  color: #FFFFFF;
+}
+footer hr {
+  background-color: #4C5155;
+}
+footer .release h3 {
+  color: #FFFFFF;
+}
+footer .release h3 span {
+  color: #FE4240;
+}
+footer .release .connectUs button {
+  background-color: #0D0D0D;
+  border-radius: 50%;
+  border: 1px solid #FE4240;
+}
+footer .release .connectUs i {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
