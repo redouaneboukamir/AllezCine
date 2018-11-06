@@ -1,0 +1,52 @@
+$Font : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.ContentSocial{
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    position: absolute;
+    position: fixed;
+    .TitleBtnSocial{
+        color: white;
+        margin-right: 40px;
+        margin-top: 4px;
+        font-size: 1em;
+        font-family: $Font;
+    }
+    .AllBtn{
+        padding: 10px 10px;
+        width: 200px;
+        border-radius: 40px;
+        transform: translateX(-160px);
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+        margin: 1px 1px;
+        &:hover{
+            transform: translateX(-20px);
+            transition: transform 0.5s ease;
+        }
+    }
+    .Twitter{
+        background: #23a1e4;
+    }
+    .Facebook{
+        background: #40618f;
+        i{
+            padding: 5px 10px;
+        }
+    }
+    .Dribble{
+        background: #e54f88;
+    }
+    .Google{
+        background : #de4c3c
+    }
+    i{
+        font-size: 1em;
+        padding: 5px 5px;
+        border-radius: 40px;
+        color: black;
+        background-color: white;
+    }
+}

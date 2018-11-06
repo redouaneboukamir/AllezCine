@@ -95,105 +95,7 @@ body {
 
 .jumbotron {
   padding: 0;
-}
-
-.divjumbo {
-  z-index: 10;
-  text-align: center;
-  top: 40%;
-  left: 31.5%;
-}
-
-.txtjumbo1 {
-  color: white;
-  margin-bottom: 0.2em;
-  font-weight: bold;
-}
-
-.txtjumbo2 {
-  color: #F1EFF0;
-  margin-bottom: 0.8em;
-  font-family: "Julius Sans One";
-  margin-top: 1em;
-  font-size: 1em;
-}
-
-.navbar {
-  z-index: 10;
-}
-
-.buttonnavbar {
-  margin-left: 0.2em;
-}
-
-.carousel-item img {
-  filter: brightness(50%);
-}
-
-.active {
-  background-color: #FE4240 !important;
-}
-
-.activecarou {
-  margin-bottom: 10em;
-}
-
-.bg {
-  background-color: transparent;
-}
-
-.onglet {
-  background-color: #4C5155;
-  color: white;
-  border: none;
-}
-.onglet:hover {
-  background-color: #FE4240;
-}
-
-.allezcine {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 3.3em;
-  font-weight: bold;
-  margin-top: 0.3em;
-  margin-left: 0.7em;
-}
-.allezcine .contact {
-  color: white;
-}
-
-body {
-  font-family: sans-serif;
-}
-
-.toup {
-  margin-top: -6em;
-}
-
-.search {
-  border-radius: 30px;
-}
-
-.home {
-  color: #FE4240;
-  margin-left: 3em;
-  margin-right: 1em;
-}
-
-.contact {
-  margin-left: 6em;
-}
-
-.letterred {
-  color: #FE4240;
-}
-
-.container-fluid {
-  padding: 0;
-}
-
-.jumbotron {
-  padding: 0;
+  margin-bottom: 0 !important;
 }
 
 .divjumbo {
@@ -367,6 +269,276 @@ footer .release .connectUs i {
   color: #FFFFFF;
   padding: 5px;
   margin-bottom: 30px;
+}
+
+.ContentBox {
+  top: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 80vh;
+  background-color: #9b9b9b;
+  border-radius: 20px;
+  padding: 10px 10px;
+  position: absolute;
+  margin-left: 30%;
+}
+.ContentBox .TextBtn {
+  text-align: center;
+  margin: 0 10px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContentBox .ContentBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+.ContentBox .ContentBtn .Ok {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background: #4797e5;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ContentForm {
+  z-index: 999;
+  background-color: #F1EFF0;
+  border-radius: 50px 15px;
+  position: absolute;
+  top: 100px;
+  height: auto;
+  padding-bottom: 50px;
+  box-shadow: 10px 10px 10px grey;
+  display: none;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ContentForm .EnteteLogin {
+  height: 50%;
+  position: relative;
+  padding-top: 30px;
+}
+.ContentForm .EnteteLogin .ImgLogin {
+  margin-left: 35%;
+  background-color: #fe3f46;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContentForm .EnteteLogin .ImgLogin i {
+  font-size: 8em;
+  color: white;
+}
+.ContentForm .EnteteLogin .XLogin {
+  right: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #e93535;
+  color: white;
+  padding: 5px 5px;
+  top: 10px;
+  position: absolute;
+}
+.ContentForm .FormLogin {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.ContentForm .FormLogin .TitleId {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContentForm .FormLogin .TitlePassword {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContentForm .FormLogin .ContentBtnLogin {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.ContentForm .FormLogin .ContentBtnLogin .LoginBtn {
+  background-color: #4aaf5d;
+  width: 40%;
+  height: 60px;
+  color: white;
+  border-radius: 10px;
+}
+.ContentForm .FormLogin .ContentBtnLogin .LoginBtn:hover {
+  opacity: 0.8;
+}
+.ContentForm .FormLogin .ContentBtnLogin .CreateBtn {
+  width: 40%;
+  height: 60px;
+  border-radius: 10px;
+}
+.ContentForm .FormLogin .SecondContentBtnLogin {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ContentForm .FormLogin .Id {
+  height: 30px;
+}
+.ContentForm .FormLogin .Password {
+  height: 30px;
+}
+.ContentForm .FormLogin .StayConnectBtn {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.ContentFormRegister {
+  z-index: 999;
+  background-color: #F1EFF0;
+  border-radius: 50px 15px;
+  position: absolute;
+  top: 100px;
+  height: auto;
+  padding-bottom: 50px;
+  box-shadow: 10px 10px 10px grey;
+  display: none;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ContentFormRegister .XRegister {
+  right: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #e93535;
+  color: white;
+  padding: 5px 5px;
+  top: 10px;
+  position: absolute;
+}
+.ContentFormRegister .FormRegister {
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.ContentFormRegister .BtnRegister {
+  margin-top: 30px;
+  background-color: #4aaf5d;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+.ContentFormRegister .BtnRegister:hover {
+  opacity: 0.8;
+}
+.ContentFormRegister .NameInput {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContentFormRegister .InputName {
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1), translateX(-50%);
+  }
+}
+.ContentSocial {
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  position: absolute;
+  position: fixed;
+}
+.ContentSocial .TitleBtnSocial {
+  color: white;
+  margin-right: 40px;
+  margin-top: 4px;
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContentSocial .AllBtn {
+  padding: 10px 10px;
+  width: 200px;
+  border-radius: 40px;
+  transform: translateX(-160px);
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 1px 1px;
+}
+.ContentSocial .AllBtn:hover {
+  transform: translateX(-20px);
+  transition: transform 0.5s ease;
+}
+.ContentSocial .Twitter {
+  background: #23a1e4;
+}
+.ContentSocial .Facebook {
+  background: #40618f;
+}
+.ContentSocial .Facebook i {
+  padding: 5px 10px;
+}
+.ContentSocial .Dribble {
+  background: #e54f88;
+}
+.ContentSocial .Google {
+  background: #de4c3c;
+}
+.ContentSocial i {
+  font-size: 1em;
+  padding: 5px 5px;
+  border-radius: 40px;
+  color: black;
+  background-color: white;
+}
+
+.BarreLoginRegister {
+  background: #fe3f46;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+}
+.BarreLoginRegister .ContentBtnLogin {
+  margin-left: 15px;
+}
+.BarreLoginRegister .ContentBtnLogin button {
+  background: black;
+  color: white;
+  padding: 7px 14px;
 }
 
 /*# sourceMappingURL=main.css.map */
