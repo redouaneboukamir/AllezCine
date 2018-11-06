@@ -3,6 +3,10 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 }
 
 //section film
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
 .section-film{
 	.row{
 		border: 1px solid $cleargrey;
@@ -37,6 +41,47 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+}
+
+.featured-movies{
+	margin-top: 30px;
+	.row{
+		border: none;
+		h2{
+			text-transform: uppercase;
+			font-size: 1.4em;
+			transform: translateX(-50px);
+			span{
+				color: $red;
+				margin-right: 10px;
+			}
+		}
+		.plus{
+			background-color: $red;
+			padding: 10px 15px;
+			color: white;
+			border:none;
+		}
+	}
+	.tri-movies{
+		padding-left: 30px;
+		.wrapper{
+			ul{
+				li{
+					padding: 10px 15px;
+					color: black;
+					background-color: $cleargrey;
+					border:none;
+					cursor: pointer;
+					margin-right: 10px;					
+				}
+				li.active{
+					color: white;
+					background-color: $red;
 				}
 			}
 		}

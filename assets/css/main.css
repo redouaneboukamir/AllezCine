@@ -34,6 +34,10 @@ table {
 h1, h2, h3, h4, h5, h6, p, div, a, li, input {
   font-family: sans-serif; }
 
+.container {
+  padding-left: 0;
+  padding-right: 0; }
+
 .section-film .row {
   border: 1px solid #F1EFF0;
   border-radius: 10px;
@@ -53,3 +57,34 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
     margin-top: 15px; }
     .section-film .row .modal .modal-dialog .modal-content .modal-body ul li {
       margin: 10px 0; }
+
+.featured-movies {
+  margin-top: 30px; }
+  .featured-movies .row {
+    border: none; }
+    .featured-movies .row h2 {
+      text-transform: uppercase;
+      font-size: 1.4em;
+      -webkit-transform: translateX(-50px);
+      -ms-transform: translateX(-50px);
+      transform: translateX(-50px); }
+      .featured-movies .row h2 span {
+        color: #FE4240;
+        margin-right: 10px; }
+    .featured-movies .row .plus {
+      background-color: #FE4240;
+      padding: 10px 15px;
+      color: white;
+      border: none; }
+  .featured-movies .tri-movies {
+    padding-left: 30px; }
+    .featured-movies .tri-movies .wrapper ul li {
+      padding: 10px 15px;
+      color: black;
+      background-color: #F1EFF0;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px; }
+    .featured-movies .tri-movies .wrapper ul li.active {
+      color: white;
+      background-color: #FE4240; }
