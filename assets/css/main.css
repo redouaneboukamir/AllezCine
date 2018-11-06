@@ -30,3 +30,26 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6, p, div, a, li, input {
+  font-family: sans-serif; }
+
+.section-film .row {
+  border: 1px solid #F1EFF0;
+  border-radius: 10px;
+  padding: 15px; }
+  .section-film .row .card {
+    border: none; }
+    .section-film .row .card img {
+      cursor: pointer; }
+    .section-film .row .card .card-body h5 {
+      cursor: pointer; }
+  .section-film .row .modal .modal-dialog .modal-header {
+    background-color: #FE4240; }
+  .section-film .row .modal .modal-dialog .modal-content .modal-body p {
+    margin-top: 15px;
+    line-height: 1.2em; }
+  .section-film .row .modal .modal-dialog .modal-content .modal-body ul {
+    margin-top: 15px; }
+    .section-film .row .modal .modal-dialog .modal-content .modal-body ul li {
+      margin: 10px 0; }
