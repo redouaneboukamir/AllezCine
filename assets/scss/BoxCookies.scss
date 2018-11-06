@@ -1,0 +1,38 @@
+$BgColorBox : rgb(155, 155, 155);
+$BleuOk : #4797e5; 
+$ColorBtn :white;
+$FontSizeBtn : 1.2em;
+$FontBtn : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.ContentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:auto;
+    width: 80vh;
+    background-color: $BgColorBox;
+    border-radius: 20px;
+    padding: 10px 10px;
+    position: absolute;
+    margin-left: 30%;
+    .TextBtn{
+        text-align: center;
+        margin: 0 10px;
+        color: $ColorBtn;
+        font-family: $FontBtn;
+    }
+    .ContentBtn{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-top: 20px;
+        .Ok{
+            padding: 10px 30px;
+            border-radius: 15px;
+            background: $BleuOk;
+            color: $ColorBtn;
+            font-size: $FontSizeBtn;
+            font-family: $FontBtn;
+        }
+
+    }
+}

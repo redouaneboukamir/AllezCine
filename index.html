@@ -14,8 +14,62 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+	<!-- Contenu boite de dialogue Cookies -->
+	<div class="ContentBox row col-lg-8 col-xs-5" id="BoxCookies">
+		<span class="TextBtn">En poursuivant votre navigation, vous acceptez le dépôt de cookies tiers destinés à vous proposer des vidéos, des boutons de partage, des remontées de contenus de plateformes sociales</span>
+		<div class="ContentBtn">
+			<button class="Ok" id="Ok"><i class="fas fa-check"></i>  Ok</button>
+		</div>
+	</div>
 	
-	
+	<button id="Login">Login</button>
+	<button id="Register">register</button>
+
+	<!-- Lightbox Login -->
+	<div class="ContentForm col-lg-6 col-xs-3 animate" id="ContentForm">
+		<!-- Entete avec image et X -->
+		<div class="EnteteLogin">
+			<div class="ImgLogin col-7">
+			<i class="fas fa-user"></i>
+			</div>
+			<button class="XLogin" id="ExitBoxLogin">X</button>
+		</div>
+		<!-- Formulaire de Login -->
+		<form class="FormLogin">
+			<span class="TitleId">Id</span>
+			<input type="text" value="Enter your id" id="Id" class="Id">
+			<span class="TitlePassword">Password</span>
+			<input type="password" value="Password" id="Password" class="Password">
+			<section class="ContentBtnLogin">
+				<button id="LoginBtn" class="LoginBtn">Login</button>
+				<button id="CreateCpt" class="CreateBtn">Create an account</button>
+			</section>
+			<section class="SecondContentBtnLogin">
+				<button id="StayConnectBtn" class="StayConnectBtn">Stay connected</button>
+				<a href="#">Vous avez oublié votre mot de passe ?</a>
+				<a href="#" id="CancelBoxLogin">Cancel</a>
+			</section>
+		</form>
+	</div>
+	<!-- Formulaire Register-->
+	<div class="ContentFormRegister col-lg-7 col-xs-3 animate" id="ContentFormRegister">
+			<button class="XRegister" id="ExitBoxRegister">X</button>
+			<form class="FormRegister">
+					<span class="NameInput"NameInput>Name</span>
+					<input type="text" value="Enter your Name" id="Name" class="InputName">
+					<span class="NameInput">Email</span>
+					<input type="email" value="Enter your Email" id="Email" class="InputName">
+					<span class="NameInput">Password</span>
+					<input type="password" value="Password" id="RegisterPassword" class="InputName">
+					<span class="NameInput">Confirm Password</span>
+					<input type="password" value="Password" id="ConfirmPassword" class="InputName">
+					<section class="CheckboxAGC">
+							<input type="checkbox" id="AcceptCond" name="AGC" checked /><label>Accept general conditons</label>
+					</section>
+					<button id="BtnRegister" class="BtnRegister">Register</button>
+					
+				</form>
+	</div>
 	<!-- JQUERY BOOTSTRAP -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
