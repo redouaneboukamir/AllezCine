@@ -114,6 +114,9 @@ body {
 h1, h2, h3, h4, h5, h6, p, div, a, li, input {
   font-family: sans-serif; }
 
+.card-img-top {
+  max-height: 216px; }
+
 .container {
   padding-left: 0;
   padding-right: 0; }
@@ -128,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
       cursor: pointer; }
     .section-film .row .card .card-body h5 {
       cursor: pointer; }
-  .section-film .row .modal .modal-dialog .modal-header {
+  .section-film .row .modal .modal-dialog .modal-content .modal-header {
     background-color: #FE4240; }
   .section-film .row .modal .modal-dialog .modal-content .modal-body p {
     margin-top: 15px;
@@ -158,7 +161,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
       .featured-movies .row h2 span {
         color: #FE4240;
         margin-right: 10px; }
-    .featured-movies .row .plus {
+    .featured-movies .row .plus, .featured-movies .row .plus-s {
       background-color: #FE4240;
       padding: 10px 15px;
       color: white;

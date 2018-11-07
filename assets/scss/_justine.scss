@@ -3,6 +3,9 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 }
 
 //section film
+.card-img-top{
+	max-height: 216px;
+}
 .container{
 	padding-left: 0;
 	padding-right: 0;
@@ -25,10 +28,10 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 		}
 		.modal{
 			.modal-dialog{
-				.modal-header{
-					background-color: $red;
-				}
 				.modal-content{
+					.modal-header{
+						background-color: $red;
+					}
 					.modal-body{
 						p{
 							margin-top:15px;
@@ -72,7 +75,7 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 				margin-right: 10px;
 			}
 		}
-		.plus{
+		.plus, .plus-s{
 			background-color: $red;
 			padding: 10px 15px;
 			color: white;
