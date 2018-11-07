@@ -546,6 +546,8 @@ footer .release .connectUs i {
 .ContentShopMovies .ContentFleche {
   display: flex;
   justify-content: flex-end;
+  margin-right: -35px;
+  margin-bottom: 5px;
 }
 .ContentShopMovies .ContentFleche .FlecheVideo {
   background: black;
