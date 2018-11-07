@@ -5,6 +5,9 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 //section film
 .card-img-top{
 	max-height: 216px;
+	@media (max-width: 991.98px){
+		max-height: inherit;
+	}
 }
 .container{
 	padding-left: 0;
@@ -70,6 +73,9 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 			text-transform: uppercase;
 			font-size: 1.4em;
 			transform: translateX(-50px);
+			@media (max-width: 991.98px){
+				transform: translateX(-20px);
+			}
 			span{
 				color: $red;
 				margin-right: 10px;
@@ -88,13 +94,17 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 		margin: 15px 0;
 		.wrapper{
 			ul{
+				flex-wrap: wrap;
 				li{
 					padding: 10px 15px;
 					color: black;
 					background-color: $cleargrey;
 					border:none;
 					cursor: pointer;
-					margin-right: 10px;					
+					margin-right: 10px;
+					@media (max-width: 991.98px){
+						margin-bottom: 15px;
+					}					
 				}
 				li.active{
 					color: white;
@@ -102,5 +112,11 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 				}
 			}
 		}
+	}
+}
+
+.featured-movies{
+	@media (max-width: 991.98px){
+		padding: 0 20px 0 35px;
 	}
 }
