@@ -1,11 +1,26 @@
 $red:#FE4240;
 .ContentShopMovies{
+    
+    width: 100%;
+    .ContentFleche{
+        display: flex;
+        justify-content: flex-end;
+    .FlecheVideo{
+        background: black;
+        color: gray;
+        border: 1px solid gray;
+        padding: 5px 5px;
+        margin-top: 50px;
+        margin-left: 3px;
+        right: 0;
+    }
+} 
 
     .ContentCarteVideo{
         display: flex;
-        margin-top: 50px;
         margin-left: -50px;
         margin-right: -50px;
+        overflow: hidden;
     .ContentFirstShop{
         display: flex;
         flex-wrap: wrap;
@@ -21,7 +36,6 @@ $red:#FE4240;
             }
         }
         .TxtShop{
-            
             background: black;
             height: 30%;
             padding: 0;
@@ -56,4 +70,14 @@ $red:#FE4240;
         }
     }
 }
+}
+
+.animateVideo {
+    -webkit-animation: translateVideo 0.6s;
+    animation: translateVideo 0.6s;
+}
+@keyframes translateVideo {
+    from {transform: translateX(-10px);
+    } 
+    to {transform: scale(1),translateX(0);}
 }
