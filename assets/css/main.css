@@ -292,6 +292,15 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
         cursor: pointer; }
       .featured-movies .row .card .card-body h5 {
         cursor: pointer; }
+    .featured-movies .row .modal .modal-dialog .modal-content .modal-header {
+      background-color: #FE4240; }
+    .featured-movies .row .modal .modal-dialog .modal-content .modal-body p {
+      margin-top: 15px;
+      line-height: 1.2em; }
+    .featured-movies .row .modal .modal-dialog .modal-content .modal-body ul {
+      margin-top: 15px; }
+      .featured-movies .row .modal .modal-dialog .modal-content .modal-body ul li {
+        margin: 10px 0; }
     .featured-movies .row h2 {
       text-transform: uppercase;
       font-size: 1.4em;

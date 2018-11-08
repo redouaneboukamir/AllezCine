@@ -75,6 +75,27 @@ h1,h2,h3,h4,h5,h6,p,div,a,li,input{
 				}
 			}
 		}
+		.modal{
+			.modal-dialog{
+				.modal-content{
+					.modal-header{
+						background-color: $red;
+					}
+					.modal-body{
+						p{
+							margin-top:15px;
+							line-height: 1.2em;
+						}
+						ul{
+							margin-top: 15px;
+							li{
+								margin: 10px 0;
+							}
+						}
+					}
+				}
+			}
+		}
 		h2{
 			text-transform: uppercase;
 			font-size: 1.4em;
