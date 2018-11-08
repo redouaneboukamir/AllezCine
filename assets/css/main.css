@@ -338,8 +338,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
 
 footer {
   background-color: #FFFFFF;
-  font-family: sans-serif;
-  margin-left: 30px; }
+  font-family: sans-serif; }
   footer .container {
     padding-left: 0;
     padding-right: 0; }
