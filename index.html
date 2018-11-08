@@ -1947,11 +1947,11 @@
 	<footer>
 		 <!-- block contact us => le form de subscribe to us -->
 		<section>
-			<div class="contactUs container-fluid">
-				<div class="row container">
-					<h4>CONTACT US</h4>
+			<div class="contactUs container">
+				<div class="row container d-flex justify-content-center">
+					<h2 class="col-12 font-weight-bold"><span>|</span>Contact us</h2>
 				</div>
-				<div class="box col 6 container-fluid">
+				<div class="box col 6 container-fluid p-3">
 					<form>
 						<div class="row">
 						<div class="col">
@@ -1973,18 +1973,21 @@
 							<label for="exampleFormControlTextarea1"></label>
 							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="YOUR MESSAGE"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+						<button type="submit" id="boxSubmit" class="btn">SEND MESSAGE</button>
 					</form>
 				</div>
 			</div>
 			<!--Div contenant le titre subscribe, le textarea et le bouton-->
-			<div class="subscribe container-fluid d-flex flex-column justify-content-center"> 
-				<h4>SUBSCRIBE TO US </h4>
+			<div class="subscribe d-flex flex-column justify-content-center"> 
+				<h4 class="align-self-center">SUBSCRIBE TO US </h4>
 				<form>
-					<div class="form-row align-items-center col 8 d-flex justify-content-center">
-						<input type="text" class="form-control mb-2 col 6" id="inlineFormInput" placeholder="Enter your email">
-						<div class="col-auto">
-							<button type="submit" class="btn btn-primary mb-2 col 6">SUBSCRIBE</button>
+					<div class="form-row align-items-center col 2 d-flex justify-content-center">
+							<div class="col-sm-4">
+									<label class="sr-only" for="inlineFormInputName">Name</label>
+									<input type="text" class="form-control mb-2 col 2 offset-2" id="inlineFormInputName" placeholder="Enter your email">
+								</div>				
+						<div class="col-auto  ml-4">
+							<button type="submit" class="btn btn-primary mb-2 col 3 offset-4">SUBSCRIBE</button>
 				  		</div>
 					</div>
 				</form>
@@ -1992,20 +1995,18 @@
 		</section>
 		<!--block release => end -->
 		<section class="release container-fluid">
-			<div class="row col 12">
-				<div class="container col 2">
+			<div class="row col 12 d-flex justify-content-arround">
+				<div class="container col 2 ml-5">
 					<h3>RELEASE</h3>
-					<hr>
-					<div>2016</div>
-					<div>2015</div>
-					<div>2014</div>
-					<div>2013</div>
-					<div>2012</div>
-					<div>2011</div>
+						<div>2016</div>
+						<div>2015</div>
+						<div>2014</div>
+						<div>2013</div>
+						<div>2012</div>
+						<div>2011</div>
 				</div>
-				<div class="container col 2">
+				<div class="container col 2 mr-1 ml-1">
 					<h3>MOVIES</h3>
-					<hr>
 					<div>AVENTURE</div>
 					<div>COMEDY</div>
 					<div>FANTASY</div>
@@ -2013,9 +2014,8 @@
 					<div>MOVIES</div>
 					<div>HORROR</div>
 				</div>
-				<div class="container col 2">
+				<div class="container col 2 mr-1 ml-1">
 					<h3>REVIEW MOVIES</h3>
-					<hr>
 					<button>Action</button>
 					<button>Adventure</button>
 					<button>Animation</button>
@@ -2031,71 +2031,72 @@
 					<button>Western</button>
 					<button>Reviews</button>
 				</div>
-				<div class="container col 2">
+				<div class="container col 2 mr-1 ml-1">
 					<h3>LATEST MOVIES</h3>
-					<hr>
-					<div>
-						<img src="https://via.placeholder.com/80x60?text=/" alt="placeholder">
+					<div class="row">
+						<img src="https://via.placeholder.com/100x60?text=/" alt="placeholder">
 						<p>Film 1</p>
 					</div>
-					<div>
-						<img src="https://via.placeholder.com/80x60?text=/" alt="placeholder">
+					<div class="row">
+						<img src="https://via.placeholder.com/100x60?text=/" alt="placeholder">
 						<p>Film 2</p>
 					</div>
-					<div>
-						<img src="https://via.placeholder.com/80x60?text=/" alt="placeholder">
+					<div class="row">
+						<img src="https://via.placeholder.com/100x60?text=/" alt="placeholder">
 						<p>Film 3</p>
 					</div>
-					<div>
-						<img src="https://via.placeholder.com/80x60?text=/" alt="placeholder">
+					<div class="row">
+						<img src="https://via.placeholder.com/100x60?text=/" alt="placeholder">
 						<p>Film 4</p>
 					</div>
 				</div>
-				<div class="container col 2">
+				<div class="container col 2  mr-1 ml-1">
 					<h3><span>ALLEZ</span>CINE!</h3>
-					<hr>
+		
 					<div>
 						<!--IMAGE DES 6 FILMS-->
+						<img src="assets/img/6film.jpg" alt="placeholder">
 					</div>
 				</div>
 			</div>
 			<hr>
 			<hr>
-			<div class="connectUs d-flex justify-content-center">
-				<div>
-					<h3>CONNECT US</h3>
-					<div class="clearfix">
-						<button class="arrow float-right">arrow</button>
+			<div class="connectUs d-flex justify-content-center flex-column col-12">
+				<div id="here" class="row offset-6">
+					<h3 id="noborder" class="col-6 offset-8">CONNECT US</h3>
+				</div>
+				<div class="row col-5 d-flex justify-content-center offset-4" >
+					<div>
+						<i class="fab fa-facebook-f fa-2x otherI"></i>
 					</div>
-					<div class="row ">
-						<div>
-							<i class="fab fa-facebook-f fa-2x"></i>
-						</div>
-						<div>
-							<i class="fab fa-twitter fa-2x"></i>
-						</div>
-						<div>
-							<i class="fab fa-linkedin-in fa-2x"></i>
-						</div>
-						<div>
-							<i class="fab fa-youtube fa-2x"></i>
-						</div>
-						<div>
-							<i class="fab fa-google-plus-g fa-2x"></i>
-						</div>
+					<div>
+						<i class="fab fa-twitter fa-2x otherI"></i>
+					</div>
+					<div>
+						<i class="fab fa-linkedin-in fa-2x otherI"></i>
+					</div>
+					<div>
+						<i class="fab fa-youtube fa-2x otherI"></i>
+					</div>
+					<div>
+						<i class="fab fa-google-plus-g fa-2x otherI"></i>
 					</div>
 				</div>
-				
 			</div>
 		</section>
 	</footer>
 
 	<!-- JQUERY BOOTSTRAP -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="JS/Cine.js"></script>
-	<script src="assets/js/featured-movie.js"></script>
-	<script src="assets/js/featured-serie.js"></script>
+<script src="JS/Arrowup.js"></script>
+<script src="assets/js/featured-movie.js"></script>
+<script src="assets/js/featured-serie.js"></script>
 </body>
 </html>
