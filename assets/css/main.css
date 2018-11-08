@@ -170,8 +170,6 @@ input::placeholder {
     display: none; }
   .carouselExampleIndicators {
     display: none; }
-  .allezcine {
-    color: black !important; }
   .activecarou {
     margin-bottom: 0em; }
   .home {
@@ -181,7 +179,19 @@ input::placeholder {
     color: #FE4240 !important;
     margin-left: 0em; }
   .search {
-    display: none; } }
+    display: none; }
+  .bg {
+    background-color: black; }
+  .toup {
+    margin-top: 0em; }
+  .caroussel-item {
+    height: 400px; }
+  .carousel-inner {
+    height: 400px; }
+    .carousel-inner img {
+      height: 400px;
+      -o-object-fit: cover;
+      object-fit: cover; } }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .buttonnavbar {
