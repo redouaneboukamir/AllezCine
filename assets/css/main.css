@@ -682,112 +682,106 @@ footer {
       color: white;
       padding: 7px 14px; }
 
-.BarreLoginRegister .ContentBtnLogin {
-  margin-left: 15px;
-}
-.BarreLoginRegister .ContentBtnLogin button {
-  background: black;
-  color: white;
-  padding: 7px 14px;
-}
-
 .ContentShopMovies {
-  width: 100%;
-}
-.ContentShopMovies .ContentFleche {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: -35px;
-  margin-bottom: 5px;
-}
-.ContentShopMovies .ContentFleche .FlecheVideo {
-  background: black;
-  color: gray;
-  border: 1px solid gray;
-  padding: 5px 5px;
-  margin-top: 50px;
-  margin-left: 3px;
-  right: 0;
-}
-.ContentShopMovies .ContentCarteVideo {
-  display: flex;
-  margin-left: -50px;
-  margin-right: -50px;
-  overflow: hidden;
-}
-.ContentShopMovies .ContentCarteVideo .ContentFirstShop {
-  display: flex;
-  flex-wrap: wrap;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop {
-  height: auto;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop {
-  height: 70%;
-  padding: 0;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop .VideoShop {
-  width: 100%;
-  height: 100%;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop {
-  background: black;
-  height: 30%;
-  padding: 0;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .ContentTxt {
-  height: 100%;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop h3 {
-  color: #FE4240;
-  padding-bottom: 10px;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre h4 {
-  color: #FE4240;
-  padding-top: 5px;
-  width: 25%;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre .ColorRed {
-  color: #FE4240;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre .ResumeVideo {
-  width: 66.6666666667%;
-  color: white;
-  font-size: 0.7em;
-  text-align: justify;
-  padding-bottom: 10px;
-}
+  width: 100%; }
+  .ContentShopMovies .ContentFleche {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-right: -35px;
+    margin-bottom: 5px; }
+    .ContentShopMovies .ContentFleche .FlecheVideo {
+      background: black;
+      color: gray;
+      border: 1px solid gray;
+      padding: 5px 5px;
+      margin-top: 50px;
+      margin-left: 3px;
+      right: 0; }
+  .ContentShopMovies .ContentCarteVideo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -50px;
+    margin-right: -50px;
+    overflow: hidden; }
+    .ContentShopMovies .ContentCarteVideo .ContentFirstShop {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+    .ContentShopMovies .ContentCarteVideo .ContentSecondShop {
+      height: auto; }
+      .ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop {
+        height: 70%;
+        padding: 0; }
+        .ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop .VideoShop {
+          width: 100%;
+          height: 100%; }
+      .ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop {
+        background: black;
+        height: 30%;
+        padding: 0; }
+        .ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .ContentTxt {
+          height: 100%; }
+        .ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop h3 {
+          color: #FE4240;
+          padding-bottom: 10px; }
+        .ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre h4 {
+            color: #FE4240;
+            padding-top: 5px;
+            width: 25%; }
+          .ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre .ColorRed {
+            color: #FE4240; }
+          .ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre .ResumeVideo {
+            width: 66.66667%;
+            color: white;
+            font-size: 0.7em;
+            text-align: justify;
+            padding-bottom: 10px; }
 
 .animateVideo {
   -webkit-animation: translateVideo 0.6s;
-  animation: translateVideo 0.6s;
-}
+  animation: translateVideo 0.6s; }
+
+@-webkit-keyframes translateVideo {
+  from {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px); }
+  to {
+    -webkit-transform: scale(1), translateX(0);
+    transform: scale(1), translateX(0); } }
 
 @keyframes translateVideo {
   from {
-    transform: translateX(-10px);
-  }
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px); }
   to {
-    transform: scale(1), translateX(0);
-  }
-}
+    -webkit-transform: scale(1), translateX(0);
+    transform: scale(1), translateX(0); } }
+
 .row {
-  border: none;
-}
-.row h2 {
-  text-transform: uppercase;
-  font-size: 1.4em;
-  transform: translateX(-50px);
-}
-.row h2 span {
-  color: #FE4240;
-  margin-right: 10px;
-}
-
-/*# sourceMappingURL=main.css.map */
-
+  border: none; }
+  .row h2 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    transform: translateX(-50px); }
+    .row h2 span {
+      color: #FE4240;
+      margin-right: 10px; }
