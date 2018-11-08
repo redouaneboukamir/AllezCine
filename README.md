@@ -1,3 +1,3 @@
 # AllezCine
-Projets Groupe
+## Projet final
 <img src="CaptureAllezCine.png">
