@@ -87,4 +87,29 @@ $('#ExitBoxRegister').click(function(){
   $('#Login').removeAttr('disabled');
 });
 
+// Caroussel 
+let Suivant, Precedent , i =1;
+$('#FlecheDroite').click(function(){
+  if(i< 4 && i > 0){
+  Precedent = $('#VideoShop'+(i));
+  Suivant = $('#VideoShop'+(i+1));
+  Suivant.show();
+  Suivant.css('transform','translatex(0px)');
+  Precedent.hide();
+  i++;
+}
+});
+$('#FlecheGauche').click(function(){
+  if(i>1){
+    i--;
+  }
+  if(i< 4 && i > 0){
+    Precedent = $('#VideoShop'+(i));
+    Suivant = $('#VideoShop'+(i+1));
+    Precedent.show();
+    Precedent.css('transform','translatex(0px)');
+    Suivant.hide();
+  }
+});
+
 

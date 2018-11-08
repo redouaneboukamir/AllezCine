@@ -12,5 +12,18 @@
 @import 'BoxCookies';
 @import 'LightBox';
 @import 'BtnSocial';
-@import 'MenuLoginRegister'
+@import 'MenuLoginRegister';
+@import 'ShopMovies';
 
+.row{
+    border: none;
+    h2{
+        text-transform: uppercase;
+        font-size: 1.4em;
+        transform: translateX(-50px);
+        span{
+            color: $red;
+            margin-right: 10px;
+        }
+    }
+}

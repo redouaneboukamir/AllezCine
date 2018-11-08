@@ -1,0 +1,87 @@
+.ContentShopMovies {
+  width: 100%;
+}
+.ContentShopMovies .ContentFleche {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -35px;
+  margin-bottom: 5px;
+}
+.ContentShopMovies .ContentFleche .FlecheVideo {
+  background: black;
+  color: gray;
+  border: 1px solid gray;
+  padding: 5px 5px;
+  margin-top: 50px;
+  margin-left: 3px;
+  right: 0;
+}
+.ContentShopMovies .ContentCarteVideo {
+  display: flex;
+  margin-left: -50px;
+  margin-right: -50px;
+  overflow: hidden;
+}
+.ContentShopMovies .ContentCarteVideo .ContentFirstShop {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop {
+  height: auto;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop {
+  height: 70%;
+  padding: 0;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop .VideoShop {
+  width: 100%;
+  height: 100%;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop {
+  background: black;
+  height: 30%;
+  padding: 0;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .ContentTxt {
+  height: 100%;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop h3 {
+  color: #FE4240;
+  padding-bottom: 10px;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre h4 {
+  color: #FE4240;
+  padding-top: 5px;
+  width: 25%;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre .ColorRed {
+  color: #FE4240;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop .TxtShop .SousTitre .ResumeVideo {
+  width: 66.6666666667%;
+  color: white;
+  font-size: 0.7em;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.animateVideo {
+  -webkit-animation: translateVideo 0.6s;
+  animation: translateVideo 0.6s;
+}
+
+@keyframes translateVideo {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: scale(1), translateX(0);
+  }
+}
+
+/*# sourceMappingURL=ShopMovies.css.map */
