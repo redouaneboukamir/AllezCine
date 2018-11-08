@@ -47,19 +47,6 @@ table {
   font-weight: bold;
   margin-top: 0.3em;
   margin-left: 0.7em; }
-<<<<<<< HEAD
-  .allezcine .contact {
-    color: white; }
-
-body {
-  font-family: sans-serif; }
-
-.toup {
-  margin-top: -6em; }
-
-.search {
-  border-radius: 30px; }
-=======
 
 .contact {
   color: white; }
@@ -91,7 +78,6 @@ input::placeholder {
 
 .form-control {
   color: white; }
->>>>>>> 2aa7a507c3d42f6eea7d2bdd13bc83b84283ff0c
 
 .home {
   color: #FE4240 !important;
@@ -146,12 +132,6 @@ input::placeholder {
   margin-top: 1em;
   font-size: 1em; }
 
-.navbar {
-  z-index: 10; }
-
-.buttonnavbar {
-  margin-left: 0.2em; }
-
 .carousel-item img {
   -webkit-filter: brightness(50%);
   filter: brightness(50%); }
@@ -161,18 +141,6 @@ input::placeholder {
 
 .activecarou {
   margin-bottom: 10em; }
-
-h1, h2, h3, h4, h5, h6, p, div, a, li, input {
-  font-family: sans-serif; }
-
-.card-img-top {
-  max-height: 216px; }
-  @media (max-width: 991.98px) {
-    .card-img-top {
-      max-height: 261px; } }
-  @media (max-width: 767.98px) {
-    .card-img-top {
-      max-height: 330px; } }
 
 .btn-default {
   background-color: #FE4240;
@@ -276,6 +244,15 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
 h1, h2, h3, h4, h5, h6, p, div, a, li, input {
   font-family: sans-serif; }
 
+.card-img-top {
+  max-height: 216px; }
+  @media (max-width: 991.98px) {
+    .card-img-top {
+      max-height: 261px; } }
+  @media (max-width: 767.98px) {
+    .card-img-top {
+      max-height: 330px; } }
+
 .container {
   padding-left: 0;
   padding-right: 0; }
@@ -294,10 +271,7 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
       cursor: pointer; }
     .section-film .row .card .card-body h5 {
       cursor: pointer; }
-
   .section-film .row .modal .modal-dialog .modal-content .modal-header {
-
-  .section-film .row .modal .modal-dialog .modal-header {
     background-color: #FE4240; }
   .section-film .row .modal .modal-dialog .modal-content .modal-body p {
     margin-top: 15px;
@@ -361,26 +335,6 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
 @media (max-width: 991.98px) {
   .featured-movies {
     padding: 0 20px 0 35px; } }
-      .featured-movies .row h2 span {
-        color: #FE4240;
-        margin-right: 10px; }
-    .featured-movies .row .plus {
-      background-color: #FE4240;
-      padding: 10px 15px;
-      color: white;
-      border: none; }
-  .featured-movies .tri-movies {
-    padding-left: 30px; }
-    .featured-movies .tri-movies .wrapper ul li {
-      padding: 10px 15px;
-      color: black;
-      background-color: #F1EFF0;
-      border: none;
-      cursor: pointer;
-      margin-right: 10px; }
-    .featured-movies .tri-movies .wrapper ul li.active {
-      color: white;
-      background-color: #FE4240; }
 
 footer {
   background-color: #0D0D0D;
