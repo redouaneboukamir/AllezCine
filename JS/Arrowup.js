@@ -1,3 +1,25 @@
+//function apparition de la box contactUs
+
+$(function(){
+    $('#contact').click(function(){
+        $('.box').css("display","block");
+       $('.form-control').css("display","block");
+        return false
+    });
+});
+$('#ExitBoxSubmit').click(function(){
+    $('.box').css("display","none");
+    $('.form-control').css("display","none");
+        return false
+});
+$('#boxSubmit').click(function(){
+    $('#boxInput').show();
+  });
+  $('#ExitBoxInput').click(function(){
+    $('#boxInput').hide();
+  });
+
+  //function input dans une box
 
 // Creation du bouton qui retourne vers l'entête
 
@@ -29,12 +51,3 @@ jQuery(function(){
     });
     });
     });
-
-//function apparition de la box contactUs
-
-$(function(){
-    $('#boxSubmit').click(function(){
-        $('.form-control').css("display","block");
-        return false
-    });
-});

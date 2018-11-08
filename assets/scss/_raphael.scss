@@ -15,6 +15,9 @@ footer{
     .contactUs{
         background-color:$white;
         margin-top: 30px;
+        #contact{
+            margin-top: 50px;
+        }
         .row{
             h2{
 	    		text-transform: uppercase;
@@ -29,9 +32,18 @@ footer{
         .box{
             position: relative;
             background-color: $white;
-            .form-control{
-                display: none;
-            }
+            display: none;
+        }
+        .XLogin{
+            right:10px;
+            border-radius: 5px;
+            border: 1px solid white;
+            background-color: rgb(233, 53, 53);
+            color: white;
+            padding: 5px 5px;
+            top: 10px;
+            position: absolute;
+            z-index: 99999;
         }
         button{
             background-color: $red;
@@ -51,9 +63,6 @@ footer{
             color: $red;
             font-size: 1.4em;
         }
-      /*  #inlineFormInput{
-            width: 0;
-        }*/
         button{
             background-color: $red;
             color:$white;
