@@ -72,6 +72,7 @@ $('#BtnRegister').click(function(){
       return false;
     } else if ($('#RegisterPassword').val() != $('#ConfirmPassword').val()){
       alert("Entrez 2 mots de passe similaires");
+      return false;
     }
     else if(!($('#AcceptCond').is(':checked'))){
       alert("Veuillez acceptez les condtions.");
