@@ -16,18 +16,31 @@
   margin-left: 3px;
   right: 0;
 }
+.ContentShopMovies .Fleche {
+  display: flex;
+  justify-content: flex-end;
+}
+.ContentShopMovies .Ensemble4Video {
+  height: 600px;
+  position: relative;
+}
 .ContentShopMovies .ContentCarteVideo {
   display: flex;
   margin-left: -50px;
   margin-right: -50px;
-  overflow: hidden;
 }
 .ContentShopMovies .ContentCarteVideo .ContentFirstShop {
   display: flex;
   flex-wrap: wrap;
 }
 .ContentShopMovies .ContentCarteVideo .ContentSecondShop {
-  height: auto;
+  padding: 0;
+  position: absolute;
+  display: none;
+  height: 100%;
+}
+.ContentShopMovies .ContentCarteVideo .ContentSecondShop:nth-child(1) {
+  display: block;
 }
 .ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop {
   height: 70%;

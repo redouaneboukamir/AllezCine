@@ -96,7 +96,6 @@ $('#FlecheDroite').click(function(){
   Precedent = $('#VideoShop'+(i));
   Suivant = $('#VideoShop'+(i+1));
   Suivant.show();
-  Suivant.css('transform','translatex(0px)');
   Precedent.hide();
   i++;
 }
@@ -109,7 +108,6 @@ $('#FlecheGauche').click(function(){
     Precedent = $('#VideoShop'+(i));
     Suivant = $('#VideoShop'+(i+1));
     Precedent.show();
-    Precedent.css('transform','translatex(0px)');
     Suivant.hide();
   }
 });
