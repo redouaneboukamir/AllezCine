@@ -588,7 +588,6 @@ footer .release .connectUs .otherI {
   flex-direction: column;
   justify-content: center;
   height: auto;
-  width: 80vh;
   background-color: #9b9b9b;
   border-radius: 20px;
   padding: 10px 10px;
@@ -868,31 +867,18 @@ footer .release .connectUs .otherI {
   margin-left: 3px;
   right: 0;
 }
-.ContentShopMovies .Fleche {
-  display: flex;
-  justify-content: flex-end;
-}
-.ContentShopMovies .Ensemble4Video {
-  height: 600px;
-  position: relative;
-}
 .ContentShopMovies .ContentCarteVideo {
   display: flex;
   margin-left: -50px;
   margin-right: -50px;
+  overflow: hidden;
 }
 .ContentShopMovies .ContentCarteVideo .ContentFirstShop {
   display: flex;
   flex-wrap: wrap;
 }
 .ContentShopMovies .ContentCarteVideo .ContentSecondShop {
-  padding: 0;
-  position: absolute;
-  display: none;
-  height: 100%;
-}
-.ContentShopMovies .ContentCarteVideo .ContentSecondShop:nth-child(1) {
-  display: block;
+  height: auto;
 }
 .ContentShopMovies .ContentCarteVideo .ContentSecondShop .ContentVideoShop {
   height: 70%;

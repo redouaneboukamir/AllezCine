@@ -70,6 +70,8 @@ $('#BtnRegister').click(function(){
     }else if($('#ConfirmPassword').val() == "" || ($('#ConfirmPassword').val() == "Password")){
       alert("Enter a valid Confirm password.");
       return false;
+    } else if ($('#RegisterPassword').val() != $('#ConfirmPassword').val()){
+      alert("Entrez 2 mots de passe similaires");
     }
     else if(!($('#AcceptCond').is(':checked'))){
       alert("Veuillez acceptez les condtions.");
@@ -94,7 +96,6 @@ $('#FlecheDroite').click(function(){
   Precedent = $('#VideoShop'+(i));
   Suivant = $('#VideoShop'+(i+1));
   Suivant.show();
-  Suivant.css('transform','translatex(0px)');
   Precedent.hide();
   i++;
 }
@@ -107,7 +108,6 @@ $('#FlecheGauche').click(function(){
     Precedent = $('#VideoShop'+(i));
     Suivant = $('#VideoShop'+(i+1));
     Precedent.show();
-    Precedent.css('transform','translatex(0px)');
     Suivant.hide();
   }
 });
