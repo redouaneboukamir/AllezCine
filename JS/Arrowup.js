@@ -34,7 +34,7 @@ userMessage.innerHTML = "\n Your message : " + textArea;
 };
 let arrow = document.createElement("i");
 arrow.setAttribute("id", "arrow");
-arrow.setAttribute("class","fas fa-arrow-alt-circle-up fa-3x arrow float-right col-2 offset-lg-5 p-0");
+arrow.setAttribute("class","fas fa-arrow-alt-circle-up fa-3x arrow float-right col-2 d-flex justify-content-end p-0");
 let connect = document.getElementById("here");
 connect.appendChild(arrow);
 

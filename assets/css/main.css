@@ -237,7 +237,11 @@ body {
     position: absolute; }
   .fa {
     left: 200px;
-    bottom: -17px; } }
+    bottom: -17px; }
+  .bg {
+    background-color: black; }
+  .toup {
+    margin-top: 0em; } }
 
 h1, h2, h3, h4, h5, h6, p, div, a, li, input {
   font-family: sans-serif; }
@@ -336,7 +340,8 @@ h1, h2, h3, h4, h5, h6, p, div, a, li, input {
 
 footer {
   background-color: #FFFFFF;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  width: inherit; }
   footer .container {
     padding-left: 0;
     padding-right: 0; }
@@ -418,9 +423,10 @@ footer {
         color: #FE4240; }
     footer .release img {
       margin: 5px; }
-      footer .release img .6film {
+      footer .release img #6film {
         display: block;
-        width: auto; }
+        max-width: 100%;
+        height: auto; }
     footer .release p {
       margin: 5px;
       margin-top: 25px; }
