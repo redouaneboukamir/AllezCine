@@ -2,31 +2,17 @@
 
 $(function(){
     $('#contact').click(function(){
-        $('.box').css("display","block");
-       $('.form-control').css("display","block");
+        $('.box').css("display","block"); 
         return false
     });
 });
 $('#ExitBoxSubmit').click(function(){
     $('.box').css("display","none");
-    $('.form-control').css("display","none");
         return false
 });
 
 //box avec les input
 
-/*$('#boxSubmit').click(function(){
-    $('#user-firstname').text(`First Name: ${'#firstName'.val()}`);
-    $('#user-lastname').text(`Last Name: ${'#LastName'.val()}`);
-    $('#user-email').text(`Email: ${'#Email'.val()}`);
-    $('#user-subject').text(`Subject: ${'#subject'.val()}`);
-    $('#user-message').text(`Your message: ${'#textArea'.val()}`);
-});
-
-// Creation du bouton qui retourne vers l'entête
-$('#formreturn').submit(function(){
-    return false;
-});*/
 let boxvalue = () =>{
 let fName = document.getElementById("firstName").value;
 let lName = document.getElementById("LastName").value;
@@ -44,7 +30,7 @@ userFName.innerHTML = "First Name : " + fName;
 userLName.innerHTML =" Last Name : " + lName; 
 userEmail.innerHTML = "  Email : " + EmailContact;
 userSubject.innerHTML = " Subject: " + subject; 
-userMessage.innerHTML = " Your message : " + textArea;
+userMessage.innerHTML = "\n Your message : " + textArea;
 };
 let arrow = document.createElement("i");
 arrow.setAttribute("id", "arrow");

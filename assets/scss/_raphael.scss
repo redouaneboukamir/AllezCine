@@ -18,6 +18,14 @@ footer{
         #contact{
             margin-top: 50px;
         }
+        input{
+            color:blue;
+        }
+        .form-control::placeholder { 
+            
+            opacity: 1; 
+            visibility: visible;
+        }
         .row{
             h2{
 	    		text-transform: uppercase;
@@ -33,12 +41,6 @@ footer{
             position: relative;
             background-color: $white;
             display: none;
-           .boxInput {
-                height: auto;
-                color:$white;
-                z-index: 99999;
-                width: 100%;
-           } 
         }
         .XLogin{
             right:10px;
@@ -94,6 +96,11 @@ footer{
         }
         img{
             margin: 5px;
+            #6film{
+                display:block;
+                width: 100%;
+                    };
+
         }
         p{
             margin:5px;
