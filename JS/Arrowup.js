@@ -1,12 +1,40 @@
+//function apparition de la box contactUs
 
-// Creation du bouton qui retourne vers l'entête
+$(function(){
+    $('#contact').click(function(){
+        $('.box').css("display","block"); 
+        return false
+    });
+});
+$('#ExitBoxSubmit').click(function(){
+    $('.box').css("display","none");
+        return false
+});
 
-//let barrow = document.createElement("button");
-//barrow.setAttribute("class"," float-right col-2 offset-4")
+//box avec les input
+
+let boxvalue = () =>{
+let fName = document.getElementById("firstName").value;
+let lName = document.getElementById("LastName").value;
+let EmailContact = document.getElementById("EmailContact").value;
+let subject = document.getElementById("subject").value;
+let textArea = document.getElementById("textArea").value;
+
+let userFName = document.getElementById("user-firstname");
+let userLName = document.getElementById("user-lastname");
+let userEmail = document.getElementById("user-email");
+let userSubject = document.getElementById("user-subject");
+let userMessage = document.getElementById("user-message");
+
+userFName.innerHTML = "First Name : " + fName; 
+userLName.innerHTML =" Last Name : " + lName; 
+userEmail.innerHTML = "  Email : " + EmailContact;
+userSubject.innerHTML = " Subject: " + subject; 
+userMessage.innerHTML = "\n Your message : " + textArea;
+};
 let arrow = document.createElement("i");
 arrow.setAttribute("id", "arrow");
 arrow.setAttribute("class","fas fa-arrow-alt-circle-up fa-3x arrow float-right col-2 offset-5 p-0");
-//barrow.appendChild(arrow);
 let connect = document.getElementById("here");
 connect.appendChild(arrow);
 
@@ -20,21 +48,12 @@ $(function(){
 
 jQuery(function(){
     $(function () {
-    $(window).scroll(function () { //Fonction appelée quand on descend la page
-    if ($(this).scrollTop() > 800 ) {  // Quand on est à 200pixels du haut de page,
-    $('#arrow').css('right','10px'); // Replace à 10pixels de la droite l'image
+    $(window).scroll(function () { 
+    if ($(this).scrollTop() > 800 ) {  
+    $('#arrow').css('right','10px'); 
     } else { 
-    $('#arrow').removeAttr( 'style' ); // Enlève les attributs CSS affectés par javascript
+    $('#arrow').removeAttr( 'style' );
     }
     });
     });
     });
-
-//function apparition de la box contactUs
-
-$(function(){
-    $('#boxSubmit').click(function(){
-        $('.form-control').css("display","block");
-        return false
-    });
-});

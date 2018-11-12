@@ -2201,10 +2201,7 @@
 									20€
 								</span>
 							</div>
-<<<<<<< HEAD
 
-=======
->>>>>>> a5013d3... responsive
 						</div>
 					</div>
 				</div>
@@ -2217,49 +2214,80 @@
 		<section>
 			<div class="contactUs container">
 				<div class="row container d-flex justify-content-center">
-					<h2 class="col-12 font-weight-bold"><span>|</span>Contact us</h2>
+					<h2 class="col-12 font-weight-bold "><span>|</span>Contact us</h2>
 				</div>
+				<button type="contact" id="contact" class="btn">Contact</button>
 				<div class="box col 6 container-fluid p-3">
+					<button class="XLogin" id="ExitBoxSubmit">X</button>
 					<form>
 						<div class="row">
 							<div class="col">
-								<input type="text" class="form-control" placeholder="FIRST NAME">
+								<input id="firstName" type="text" class="form-control box" placeholder="FIRST NAME">
 							</div>
 							<div class="col">
-								<input type="text" class="form-control" placeholder="LAST NAME">
+								<input id="LastName" type="text" class="form-control box" placeholder="LAST NAME">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col">
-								<input type="text" class="form-control" placeholder="EMAIL">
+								<input id="EmailContact" type="text" class="form-control box" placeholder="EMAIL">
 							</div>
 							<div class="col">
-								<input type="text" class="form-control" placeholder="SUBJECT">
+								<input id="subject" type="text" class="form-control box" placeholder="SUBJECT">
 							</div>
 						</div>
 						<div class="form-group">
 							<label for="exampleFormControlTextarea1"></label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="YOUR MESSAGE"></textarea>
+							<textarea id="textArea" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="YOUR MESSAGE"></textarea>
 						</div>
-						<button type="submit" id="boxSubmit" class="btn">SEND MESSAGE</button>
 					</form>
+					<button type="submit" id="boxSubmit" class="btn"  data-toggle="modal" data-target="#exampleModal" onclick="boxvalue()" >SEND MESSAGE</button>
 				</div>
 			</div>
-			<!--Div contenant le titre subscribe, le textarea et le bouton-->
-			<div class="subscribe d-flex flex-column justify-content-center">
-				<h4 class="align-self-center" id="contact">SUBSCRIBE TO US </h4>
-				<form>
-					<div class="form-row align-items-center col 2 d-flex justify-content-center">
-						<div class="col-sm-4">
-							<label class="sr-only" for="inlineFormInputName">Name</label>
-							<input type="text" class="form-control mb-2 col 2 offset-2" id="inlineFormInputName" placeholder="Enter your email">
-						</div>
-						<div class="col-auto  ml-4">
-							<button type="submit" class="btn btn-primary mb-2 col 3 offset-4">SUBSCRIBE</button>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+				 aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Your informations</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+									<table>
+											<tr>
+												<td id="user-firstname"></td>
+												<td id="user-lastname"></td>
+											</tr>
+											<tr>
+												<td id="user-email"></td>
+												<td id="user-subject"></td>
+											</tr>
+									</table>
+									<div id="user-message-content">
+										<p id="user-message"></p>
+									</div>
+							</div>
 						</div>
 					</div>
-				</form>
-			</div>
+				</div>
+				<!--Div contenant le titre subscribe, le textarea et le bouton-->
+				<div class="subscribe d-flex flex-column justify-content-center">
+					<h4 class="align-self-center">SUBSCRIBE TO US </h4>
+					<form>
+						<div class="form-row align-items-center col 2 d-flex justify-content-center">
+							<div class="col-sm-4">
+								<label class="sr-only" for="inlineFormInputName">Name</label>
+								<input type="text" class="form-control mb-2 col 2 offset-2" id="inlineFormInputName" placeholder="Enter your email">
+							</div>
+							<div class="col-auto  ml-4">
+								<button type="submit" class="btn btn-primary mb-2 col 3 offset-4">SUBSCRIBE</button>
+							</div>
+						</div>
+					</form>
+				</div>
 		</section>
 		<!--block release => end -->
 		<section class="release container-fluid">
@@ -2323,7 +2351,7 @@
 
 					<div>
 						<!--IMAGE DES 6 FILMS-->
-						<img src="assets/img/6film.jpg" alt="placeholder">
+						<img id="6film" src="assets/img/6film.jpg" alt="placeholder">
 					</div>
 				</div>
 			</div>
