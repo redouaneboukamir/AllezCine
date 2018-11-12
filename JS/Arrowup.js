@@ -12,23 +12,43 @@ $('#ExitBoxSubmit').click(function(){
     $('.form-control').css("display","none");
         return false
 });
-$('#boxSubmit').click(function(){
-    $('#boxInput').show();
-  });
-  $('#ExitBoxInput').click(function(){
-    $('#boxInput').hide();
-  });
 
-  //function input dans une box
+//box avec les input
+
+/*$('#boxSubmit').click(function(){
+    $('#user-firstname').text(`First Name: ${'#firstName'.val()}`);
+    $('#user-lastname').text(`Last Name: ${'#LastName'.val()}`);
+    $('#user-email').text(`Email: ${'#Email'.val()}`);
+    $('#user-subject').text(`Subject: ${'#subject'.val()}`);
+    $('#user-message').text(`Your message: ${'#textArea'.val()}`);
+});
 
 // Creation du bouton qui retourne vers l'entête
+$('#formreturn').submit(function(){
+    return false;
+});*/
+let boxvalue = () =>{
+let fName = document.getElementById("firstName").value;
+let lName = document.getElementById("LastName").value;
+let EmailContact = document.getElementById("EmailContact").value;
+let subject = document.getElementById("subject").value;
+let textArea = document.getElementById("textArea").value;
 
-//let barrow = document.createElement("button");
-//barrow.setAttribute("class"," float-right col-2 offset-4")
+let userFName = document.getElementById("user-firstname");
+let userLName = document.getElementById("user-lastname");
+let userEmail = document.getElementById("user-email");
+let userSubject = document.getElementById("user-subject");
+let userMessage = document.getElementById("user-message");
+
+userFName.innerHTML = "First Name : " + fName; 
+userLName.innerHTML =" Last Name : " + lName; 
+userEmail.innerHTML = "  Email : " + EmailContact;
+userSubject.innerHTML = " Subject: " + subject; 
+userMessage.innerHTML = " Your message : " + textArea;
+};
 let arrow = document.createElement("i");
 arrow.setAttribute("id", "arrow");
 arrow.setAttribute("class","fas fa-arrow-alt-circle-up fa-3x arrow float-right col-2 offset-5 p-0");
-//barrow.appendChild(arrow);
 let connect = document.getElementById("here");
 connect.appendChild(arrow);
 
@@ -42,11 +62,11 @@ $(function(){
 
 jQuery(function(){
     $(function () {
-    $(window).scroll(function () { //Fonction appelée quand on descend la page
-    if ($(this).scrollTop() > 800 ) {  // Quand on est à 200pixels du haut de page,
-    $('#arrow').css('right','10px'); // Replace à 10pixels de la droite l'image
+    $(window).scroll(function () { 
+    if ($(this).scrollTop() > 800 ) {  
+    $('#arrow').css('right','10px'); 
     } else { 
-    $('#arrow').removeAttr( 'style' ); // Enlève les attributs CSS affectés par javascript
+    $('#arrow').removeAttr( 'style' );
     }
     });
     });

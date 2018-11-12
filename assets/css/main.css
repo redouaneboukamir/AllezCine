@@ -374,6 +374,11 @@ footer {
       position: relative;
       background-color: #FFFFFF;
       display: none; }
+      footer .contactUs .box .boxInput {
+        height: auto;
+        color: #FFFFFF;
+        z-index: 99999;
+        width: 100%; }
     footer .contactUs .XLogin {
       right: 10px;
       border-radius: 5px;
@@ -381,7 +386,6 @@ footer {
       background-color: #e93535;
       color: white;
       padding: 5px 5px;
-      top: 10px;
       position: absolute;
       z-index: 99999; }
     footer .contactUs button {
