@@ -1,5 +1,6 @@
 # AllezCine
 ## Projet final
+< a href="https://redouaneboukamir.github.io/AllezCine/" > Visualiser le site</a>
 <img src="CaptureAllezCine.png">
 
 ## Teams
